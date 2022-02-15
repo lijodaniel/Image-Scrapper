@@ -12,8 +12,8 @@ root.geometry("600x400")
 root.configure(background='#CCC')
 
 
-hello_label = Label(root,text="SCRAP IMAGE FROM ANY WEBSITE",font=("Calibri", 15))
-hello_label.pack(pady=30)
+text_label = Label(root,text="SCRAP IMAGE FROM ANY WEBSITE",font=("Calibri", 15))
+text_label.pack(pady=30)
 
 def browsetheFiles():
     folder = filedialog.askdirectory(initialdir=os.path.normpath("C://"), title="Example")
